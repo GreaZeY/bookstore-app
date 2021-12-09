@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vmax;
+
+}
+body{
+
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background:#ff007b60;
+}
+
+::selection {
+  background:#ff007b60;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 50vmax;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ff007a; 
+  border-radius: 50vmax;
+}
+
+::placeholder { 
+  color: #ff007a;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: #ff007a;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #ff007a;
+    transition: background-color 5000s ease-in-out 0s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* loading backdrop  */
+
+.LoadingBackdrop{
+  display: flex;
+  position: fixed;
+  background: rgba(82, 82, 82, 0.404);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

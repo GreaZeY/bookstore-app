@@ -1,0 +1,34 @@
+.cardContainer{
+    width: 15vmax;
+    margin:  1vmax;
+    transition: .5s;
+}
+.bookCard:hover{
+    cursor: pointer;
+}
+
+.bookCard>div:first-child{
+    width: 15vmax;
+    height: 20vmax;
+}
+.bookCard>div>img{
+    width: 15vmax;
+    height: 20vmax;
+    object-fit: cover;
+}
+.cardContainer:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.8);
+}
+.bookCard>p{
+margin:auto .5vmax;
+font-size: .8vmax;
+}
+
+
+.info{
+    padding: .5vmax;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
