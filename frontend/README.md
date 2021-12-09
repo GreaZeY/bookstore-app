@@ -1,3 +1,3 @@
-# Capital Movies Frontend
+# Frontend Frontend
 
-![](https://greazey.tk/images/CapitalMovies.png)
+
