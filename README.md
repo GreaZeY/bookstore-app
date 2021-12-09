@@ -9,7 +9,6 @@ A online Bookstore where users can shop/ purchase books.
 - Account Management
 - Large Database of Movies
 - JWT token authentication
-- Dark UI
 
 ## Technologies used
 * NodeJS
@@ -27,8 +26,8 @@ A online Bookstore where users can shop/ purchase books.
 - PORT=5453
 - FRONTEND_URL="http://localhost:3000" change if you are deploying front and back end seperately
 - DB_URI = "YOUR_MONGODB_URI"
-- Go to https://www.themoviedb.org/settings/api make free account and get api key 
-- TMDB_KEY = YOUR_TMDB_KEY
+- Go to https://developer.nytimes.com/docs/ make free account and get api key 
+-NYTIMES_KEY = YOUR_NY_KEY
 - JWT_SECRET = YOUR_SECRET
 - JWT_EXPIRE=5d
 - COOKIE_EXPIRE=5
@@ -37,7 +36,7 @@ A online Bookstore where users can shop/ purchase books.
 - SMTP_PORT=465
 - MAIL = YOUR_GMAIL_ID
 - MAIL_PASSWORD =  YOUR_GMAIL_APP_PASS
-- FORGOT_PASS_MSG='Your password can be reset by clicking the button below. If you did not request a new password, please ignore this email.'
+- FORGOT_PASS_MSG='Your forgot pass message'
  -Go to https://cloudinary.com/ and make free account and get api key
 - CLOUDINARY_NAME = YOUR_CLOUDINARY_NAME
 - CLOUDINARY_API_KEY = YOUR_CLOUDINARY_KEY

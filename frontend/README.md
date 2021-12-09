@@ -1,3 +1,3 @@
-# Capital Movies Frontend
+# Bookstore Frontend
 
-![](https://greazey.tk/images/CapitalMovies.png)
+
