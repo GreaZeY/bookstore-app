@@ -1,9 +1,9 @@
 
-#                                       [Bookstore]()
+#                                       [Bookstore](https://grzy-bookstore.herokuapp.com/)
 
 A online Bookstore where users can shop/ purchase books.
 
-#### [Open site]() 
+#### [Open site](https://grzy-bookstore.herokuapp.com/) 
 
 
 - Account Management
